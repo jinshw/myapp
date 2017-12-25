@@ -66,7 +66,7 @@ class Top extends Component {
           <View style={{ position: "absolute", top: 12, left: 60 }}>
             <Text style={styles.textStyle}>红薯ToDo</Text>
           </View>
-          <View style={{ position: "absolute", top: 12, right: 20 }}>
+          <View style={{ position: "absolute", top: 12, right: 0,width:30 }}>
             <Icon
               name={"md-more"}
               size={30}
@@ -74,7 +74,7 @@ class Top extends Component {
               onPress={() => this.getLocation()}
             />
           </View>
-          <View style={{ position: "absolute", top: 12, right: 60 }}>
+          <View style={{ position: "absolute", top: 12, right: 60 ,width:30}}>
             <Icon
               name={"md-add"}
               size={30}

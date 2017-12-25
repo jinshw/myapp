@@ -52,7 +52,8 @@ const SimpleApp = TabNavigator({
         }
     },
     News: {
-        screen: NewsList, navigationOptions: {
+        screen: NewsList, 
+        navigationOptions: {
 
         }
     },

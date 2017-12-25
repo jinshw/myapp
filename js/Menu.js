@@ -26,11 +26,20 @@ export default class Menu extends Component{
                     source={{ uri:uri }}/>
                   <Text style={styles.name}>相濡以沫</Text>
                 </View>
+                <View style={styles.avatarContainer}>
+                  <Image
+                      style={styles.avatar}
+                      source={{ uri:uri }}/>
+                  <Text style={styles.name}>菜单</Text>
+                </View>
 
                 <Text
-                  onPress={() => this.props.onItemSelected('啦啦啦') }
+                  onPress={() => this.props.onItemSelected('我的数据统计') }
                   style={styles.item}>
-                  啦啦啦
+                  <Image
+                    style={styles.avatar}
+                    source={{ uri:uri }}/>
+                  我的数据统计
                 </Text>
 
                 <Text
